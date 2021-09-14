@@ -7,7 +7,7 @@
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" absolute temporary>
       <v-list nav dense>
-        <v-list-item-group v-model="group" active-class="deep-purple--text text--accent-4">
+        <v-list-item-group active-class="deep-purple--text text--accent-4">
           <div class="separador p-0">
             <v-btn absolute right depressed small plain @click="drawer = false">
               <v-icon small>mdi-close</v-icon>
