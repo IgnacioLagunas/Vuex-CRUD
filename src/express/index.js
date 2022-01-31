@@ -39,15 +39,8 @@ const usuarios = [
   },
 ]
 
-// {
-//   "id": "3",
-//   "nombre": "asdfssss",
-//   "apellido": "Jackson",
-//   "edad": "43",
-//   "email": "shannon@gmail.com",
-// }
+//node src/express/index.js en terminal para inicializar el server.
 
-//Node index en terminal para inicializar el server.
 app.listen(PORT, () => {
   console.log(`Server started at port ${PORT}`)
 })
